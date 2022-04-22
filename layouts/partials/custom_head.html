@@ -15,6 +15,9 @@ White
 
  -->
 
+
+
+
 <style>
 /* AwesomeFont Icons */
 .inline-svg {
@@ -76,5 +79,23 @@ body {
   color: #dcebec;
 }
 
-
+#site-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
 </style>
+
+
+<script type="text/javascript">
+var video=document.getElementById("site-video") ;   
+
+$(video).on("click", function(e){
+  video.muted = !video.muted;
+});
+</script>
