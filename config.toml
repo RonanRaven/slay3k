@@ -22,7 +22,7 @@ title = "Slay3K - Content Creator"
     copyright = "© Slay3K"
 
     # The "description" of your website. This is used in the meta data of your generated html.
-    description = "Content Creator"
+    description = "Slay3K - Content Creator"
 
     # The path to your "favicon". This should be a square (at least 32px x 32px) png-file.
     favicon = "images/favicon.png"
@@ -31,7 +31,7 @@ title = "Slay3K - Content Creator"
     # services like Twitter or Slack want to generate a preview of a link to your site.
     # See https://gohugo.io/templates/internal#twitter-cards and
     # https://gohugo.io/templates/internal#open-graph.
-    images = ["images/background.webp"]
+    images = ["images/preview.webp"]
 
     # Another "title" :-). This one is used as the site_name on the Hugo's internal
     # opengraph structured data template.
